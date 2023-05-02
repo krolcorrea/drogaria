@@ -41,6 +41,7 @@ public class ProdutoController {
 		return ResponseEntity.ok(produtoRepository.findAll());
 
 		// SELECT * from tb_postagens;
+		//teste
 	}
 
 	@GetMapping("/{id}")
